@@ -37,7 +37,7 @@ import subprocess
 import ctypes
 import importlib
 
-APP_VERSION = "1.9.13"
+APP_VERSION = "1.9.14"
 GITHUB_REPO = "OswallowO/Remora"
 
 REQUIRED = [
