@@ -598,7 +598,7 @@ def resolve_stock_code(input_str):
 
 class TradingConfig:
     def __init__(self):
-        self.capital_per_stock = 120         # 萬元 (max entry price=1800, 涵蓋高價股)
+        self.capital_per_stock = 450         # 萬元 (max entry price=6750, 涵蓋緯穎等超高價股)
         self.transaction_fee = 0.1425
         self.transaction_discount = 18.0
         self.trading_tax = 0.15
@@ -9959,7 +9959,7 @@ def build_cashflow_html(all_trades: list, all_events: list = None) -> str:
     dates = sorted(by_date.keys())
     fee_rate = getattr(sys_config,'transaction_fee',0.1425)*0.01*getattr(sys_config,'transaction_discount',18.0)*0.01
     tax_rate = getattr(sys_config,'trading_tax',0.15)*0.01
-    capital  = getattr(sys_config,'capital_per_stock',200)
+    capital  = getattr(sys_config,'capital_per_stock',450)
     all_fig  = {}
     for d in dates:
         trades = by_date[d]
@@ -11909,7 +11909,7 @@ class RunAnalysisTaskThread(QThread):
                 _cfg_snap = {
                     'rise_lower_bound':    getattr(sys_config, 'rise_lower_bound',    -10),
                     'rise_upper_bound':    getattr(sys_config, 'rise_upper_bound',    9.6),
-                    'capital_per_stock':   getattr(sys_config, 'capital_per_stock',   100),
+                    'capital_per_stock':   getattr(sys_config, 'capital_per_stock',   450),
                     'transaction_fee':     getattr(sys_config, 'transaction_fee',     0.1425),
                     'transaction_discount':getattr(sys_config, 'transaction_discount', 60),
                     'trading_tax':         getattr(sys_config, 'trading_tax',         0.3),
